@@ -1,5 +1,6 @@
 const projectsRouter = require("./projects");
 const usersRouter = require("./users");
+const router = express.Router();
 
 const setupRoutes = (app) => {
   // Project routes
@@ -11,4 +12,5 @@ const setupRoutes = (app) => {
 
 module.exports = {
   setupRoutes,
+  Router,
 };
